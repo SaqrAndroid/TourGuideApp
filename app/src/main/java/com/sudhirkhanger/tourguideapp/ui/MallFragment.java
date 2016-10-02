@@ -36,7 +36,7 @@ public class MallFragment extends Fragment {
         ArrayList<TourItem> tourItems = new ArrayList<>();
 
         tourItems.add(new TourItem(getString(R.string.mall_ashima_name), "", getString(R.string.mall_ashima_addr), R.drawable.ashima));
-        tourItems.add(new TourItem(getString(R.string.mall_c21_name), "", getString(R.string.mall_c21_addr)));
+        tourItems.add(new TourItem(getString(R.string.mall_c21_name), "", getString(R.string.mall_c21_addr), R.drawable.c21));
 
         ListView listView = (ListView) rootView.findViewById(R.id.mall_lv);
         TourAdapter tourAdapter = new TourAdapter(rootView.getContext(), tourItems);
